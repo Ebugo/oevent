@@ -1,0 +1,80 @@
+header {
+    display: flex;
+    background-color: black;
+    width: 100%;
+}
+
+div#logo {
+    background-color: yellow;
+    padding: 1.6rem 2rem;
+    font-size: 2rem;
+    flex-basis: 15%;
+}
+
+div#navs {
+    flex-basis: 85%;
+}
+
+div#navs ul#header-list {
+    margin-left: auto;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+div#navs ul#header-list li {
+    margin-left: 5%;
+}
+
+div#navs ul#header-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    display: flex;
+}
+
+section article {
+    margin: 0 2%;
+}
+
+article figure {
+    width: 20%;
+    height: 20%;
+    overflow: hidden;
+    margin: auto;
+}
+
+article figure img {
+    width: 100%;
+    height: 100%;
+}
+
+article h2 {
+    background-color: #003459;
+    color: white;
+}
+
+article p.info {
+    padding: 2%;
+}
+
+article ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+}
+
+article ul li {
+    font-size: 1.5rem;
+    margin: 0 2%; 
+}
+
+footer {
+    background-color: #003459;
+    padding: 15px 0 15px 0;
+    font-size: 1.2rem;
+    color: white;
+}
